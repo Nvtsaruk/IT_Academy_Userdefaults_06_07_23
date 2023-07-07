@@ -13,6 +13,8 @@
 		CCB1DEC82A549D9100D5402B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB1DEC62A549D9100D5402B /* Main.storyboard */; };
 		CCB1DECA2A549D9200D5402B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB1DEC92A549D9200D5402B /* Assets.xcassets */; };
 		CCB1DECD2A549D9200D5402B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB1DECB2A549D9200D5402B /* LaunchScreen.storyboard */; };
+		CCB1DEF52A5724C600D5402B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB1DEF42A5724C600D5402B /* Profile.swift */; };
+		CCB1DEF72A57279600D5402B /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB1DEF62A57279600D5402B /* UserDefaultsService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CCB1DEC92A549D9200D5402B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCB1DECC2A549D9200D5402B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCB1DECE2A549D9200D5402B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB1DEF42A5724C600D5402B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		CCB1DEF62A57279600D5402B /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CCB1DEC92A549D9200D5402B /* Assets.xcassets */,
 				CCB1DECB2A549D9200D5402B /* LaunchScreen.storyboard */,
 				CCB1DECE2A549D9200D5402B /* Info.plist */,
+				CCB1DEF42A5724C600D5402B /* Profile.swift */,
+				CCB1DEF62A57279600D5402B /* UserDefaultsService.swift */,
 			);
 			path = UserDefaults;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCB1DEC52A549D9100D5402B /* ViewController.swift in Sources */,
+				CCB1DEF52A5724C600D5402B /* Profile.swift in Sources */,
+				CCB1DEF72A57279600D5402B /* UserDefaultsService.swift in Sources */,
 				CCB1DEC12A549D9100D5402B /* AppDelegate.swift in Sources */,
 				CCB1DEC32A549D9100D5402B /* SceneDelegate.swift in Sources */,
 			);
